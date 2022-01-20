@@ -1,0 +1,325 @@
+body{
+    background-image: url(../images/background\ modified.jpg.png);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline-flex;
+    background-color: #000000af;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.navegacion{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 45px 0px 45px 650px;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+    transition: 0.6s all;
+}
+
+.navegacion a:hover{
+    color: #6b0707;
+    background-color: #ffffffb4;
+}
+
+.redes{
+    margin: 30px 40px;
+}
+
+.redes img{
+    padding: 0px 2px;
+}
+
+.banner img{
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.albumes, .album1, .album2, .album3{
+    display: flex;
+    margin-top: 30px;
+}
+
+.albumes img{
+    width: 200px;
+    height: 200px;
+}
+
+.albumes img:hover{
+    transform: rotate(-50deg);
+    transition-duration: 0.8s;
+}
+
+.albumes p{
+    background-color: #ffffffb4;
+    text-align: center;
+    border-radius: 10px;
+    margin: 60px 0px 0px 0px;
+}
+
+.album1 p{
+    width: 145px;
+    height: 120px;
+    padding: 10px 5px 0px 5px;
+}
+
+.album2 p{
+    width: 145px;
+    height: 110px;
+    padding: 15px 5px 0px 5px;
+}
+
+.album3 p{
+    width: 145px;
+    height: 110px;
+    padding: 15px 5px 0px 5px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-style: italic;
+    text-shadow: 4px 4px white;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+}
+
+.grow{
+    margin: 0px 30px 70px 30px;
+}
+
+.imagenes, .imagenes2{
+    display: inline-flex;
+}
+
+.grow img{
+    width: 249px;
+    height: 230px;
+}
+
+.grow img:hover{
+    transform: scale(1.1);
+}
+
+.vocalista{
+    background-color: #ffffffb4;
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 0px 30px 20px 80px;
+}
+
+.vocalista p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.guitarrista{
+    background-color: #ffffffb4;
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 0px 30px 20px 30px;
+}
+
+.guitarrista p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.españa{
+    background-color: #ffffffb4;
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 0px 50px 20px 30px;
+}
+
+.españa p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.guitarrista2{
+    background-color: #ffffffb4;
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 20px 30px 20px 80px;
+}
+
+.guitarrista2 p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.baterista{
+    background-color: #ffffffb4;
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 20px 30px 20px 30px;
+}
+
+.baterista p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.lollapalooza{
+    background-color: #ffffffb4;
+    width: 330px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 20px 50px 20px 30px;
+}
+
+.lollapalooza p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.video iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    display: inline-flex;
+    background-color: #000000af;
+    width: 100%;
+    height: 380px;
+    color: white;
+    margin-top: 60px;
+}
+
+.contacto{
+    padding: 0px 75px;
+}
+
+.contacto h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto p{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info-footer{
+    width: 380px;
+    padding: 0px 40px;
+}
+
+.info-footer h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.copy{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin: 120px 0px;
+}
+
+.redes-footer{
+    width: 330px;
+    padding: 0px 60px;
+}
+
+.redes-footer h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo2{
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 30px 0px 30px 40px;
+}
+
+.redes2{
+    display: flex;
+    justify-content: center;
+}
+
+.redes2 img{
+    width: 38px;
+    padding: 0px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
